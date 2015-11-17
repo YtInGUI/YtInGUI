@@ -1,39 +1,45 @@
-#目录结构
 
-sass/
+# YtInGUI
 
-存放 .scss 源码
-css/
 
-YtInGUI.css
-font/
+## 目录结构
 
-存放 字体文件
-img/
+- sass/
+    + 存放 .scss 源码
 
-存放 图片文件
-js/
+- css/
+    + YtInGUI.css
+    
+- font/
+    + 存放 字体文件
+    
+- img/
+    + 存放 图片文件
+    
+- js/
+    + YtInGUI.js
 
-YtInGUI.js
-lib/
+- lib/
+    + 存放第三方依赖类库，如 zeptojs
 
-存放第三方依赖类库，如 zeptojs
-doc/
+- doc/
+    + 代码规范
 
-代码规范
-jsdoc/
+- jsdoc/
+    + jsdoc生成的api文档
 
-jsdoc生成的api文档
-demo/
+- demo/
+    + 示例, 从 src/ 自动生成
+    
+- dist/
+    + 发布的文件
 
-示例, 从 src/ 自动生成
-dist/
+- Gruntfile.js
+    + grunt 配置文件
 
-发布的文件
-Gruntfile.js
 
-grunt 配置文件
-版本管理
+
+### 版本管理
 
 版本格式：主版本号.次版本号.修订号，版本号递增规则：
 
@@ -45,4 +51,22 @@ grunt 配置文件
 
 当前版本在第一个使用的业务发布后不再修改，新增版本会新增一个离线包。
 
-业务上使用时升级版本需要通知到开发，以及是否有dom修改，会不会影响到js
+_业务上使用时升级版本需要通知到开发，以及是否有dom修改，会不会影响到js_
+
+### 维护
+
+原则是有问题提issue，代码修改提pr，由Wright合并以及内部发布
+
+###版本修改记录
+
+
+
+###more
+
+
+iconfont使用：
+
+###License
+
+ MIT License
+
